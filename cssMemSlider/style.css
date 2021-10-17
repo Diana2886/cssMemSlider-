@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-section {
+  background-color: #424242;
+}
+
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  margin: auto;
+}
+
+.img-wrap {
+  width: 25%;
+}
+
+.img {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 400%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
