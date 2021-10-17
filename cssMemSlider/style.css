@@ -15,6 +15,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    width: 90vw;
+  }
+}
+
 .slider {
   width: 100%;
   margin: auto;
@@ -62,6 +68,13 @@
   text-align: end;
 }
 
+@media (max-width: 425px) {
+  .controls {
+    margin: -4rem 0 0;
+    text-align: center;
+  }
+}
+
 .controls label {
   display: inline-flex;
   align-items: center;
@@ -104,4 +117,11 @@
   color: #ffffff;
   font-size: 1.5rem;
   padding-top: 1rem;
+}
+
+@media (max-width: 425px) {
+  .text-p {
+    font-size: 1.2rem;
+    padding-top: 4rem;
+  }
 }
